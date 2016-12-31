@@ -1,0 +1,22 @@
+{
+  "name": "ttlibjs_next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "webpack -w",
+    "build": "webpack --config webpack.config.product.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^2.0.34",
+    "awesome-typescript-loader": "^3.0.0-beta.17",
+    "browser-sync": "^2.18.5",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "copy-webpack-plugin": "^4.0.1",
+    "typescript": "^2.1.4",
+    "webpack": "^1.14.0"
+  }
+}
