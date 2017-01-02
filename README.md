@@ -22,3 +22,20 @@ npm run test
 npm run build
 ```
 生成データを作る。
+
+この２つ。
+
+# 利用方法
+
+## webで使う場合
+
+ttLibJs.jsをscriptタグのsrcで読み込むと
+ttでアクセスできるようになる。
+
+## typescriptで使う場合
+
+import {tt} from "ttlibjs";
+とすると
+ttでアクセスできるようになる。
+
+こんな具合でやってみる
