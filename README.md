@@ -34,7 +34,7 @@ ttでアクセスできるようになる。
 
 ## typescriptで使う場合
 
-import {tt} from "ttlibjs";
+import {tt} from "ttlibjs_next";
 とすると
 ttでアクセスできるようになる。
 
