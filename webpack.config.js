@@ -23,6 +23,10 @@ module.exports = {
     ]),
     new BrowserSync({
       host: "localhost",
+      https: {
+        key: "server.key",
+        cert: "server.crt"
+      },
       port: 3000,
       server: {baseDir: __dirname + "/dist"}
     })
