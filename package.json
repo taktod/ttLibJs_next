@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "types": "index.d.ts",
   "scripts": {
     "test": "webpack -w",
     "build": "webpack --config webpack.config.product.js"
