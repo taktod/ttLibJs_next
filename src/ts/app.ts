@@ -35,7 +35,7 @@ $(function() {
         node.connect(pitchShift.refNode());
         pitchShift.refNode().connect(context.destination);
         */
-        var pitchShift2 = new tt.pitchShifterNode2(
+        var pitchShift2 = new tt.PitchShifterNode2(
           context,
           1.2,
           512);
