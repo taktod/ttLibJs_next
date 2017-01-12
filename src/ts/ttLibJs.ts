@@ -11,7 +11,7 @@ export namespace audio {
   export class BufferPlayer      extends abp.BufferPlayer{}
   export class ScriptPlayer      extends asp.ScriptPlayer{}
   export class PitchShifterNode  extends psn.PitchShifterNode{};
-  export class pitchShifterNode2 extends psn2.PitchShifterNode2{};
+  export class PitchShifterNode2 extends psn2.PitchShifterNode2{};
 }
 export namespace video {
   export class SceneCapture extends vsc.SceneCapture{}
@@ -21,6 +21,6 @@ export class BeepGenerator     extends abg.BeepGenerator{}
 export class BufferPlayer      extends abp.BufferPlayer{}
 export class ScriptPlayer      extends asp.ScriptPlayer{}
 export class PitchShifterNode  extends psn.PitchShifterNode{};
-export class pitchShifterNode2 extends psn2.PitchShifterNode2{};
+export class PitchShifterNode2 extends psn2.PitchShifterNode2{};
 export class SceneCapture      extends vsc.SceneCapture{}
 export class SceneDrawer       extends vsd.SceneDrawer{}
