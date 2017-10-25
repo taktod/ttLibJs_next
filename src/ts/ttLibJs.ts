@@ -4,6 +4,7 @@ import * as asp  from "./audio/scriptPlayer";
 import * as psn  from "./audio/pitchShifterNode";
 import * as psn2 from "./audio/pitchShifterNode2";
 import * as vsc  from "./video/sceneCapture";
+import * as vsc2  from "./video/sceneCapture2";
 import * as vsd  from "./video/sceneDrawer";
 
 export namespace audio {
@@ -15,6 +16,7 @@ export namespace audio {
 }
 export namespace video {
   export class SceneCapture extends vsc.SceneCapture{}
+  export class SceneCapture2 extends vsc2.SceneCapture2{}
   export class SceneDrawer  extends vsd.SceneDrawer{}
 }
 export class BeepGenerator     extends abg.BeepGenerator{}
@@ -23,4 +25,5 @@ export class ScriptPlayer      extends asp.ScriptPlayer{}
 export class PitchShifterNode  extends psn.PitchShifterNode{};
 export class PitchShifterNode2 extends psn2.PitchShifterNode2{};
 export class SceneCapture      extends vsc.SceneCapture{}
+export class SceneCapture2     extends vsc2.SceneCapture2{}
 export class SceneDrawer       extends vsd.SceneDrawer{}

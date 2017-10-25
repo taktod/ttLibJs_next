@@ -25,7 +25,7 @@ $(function() {
       original.play();
 
       var display = document.getElementById("display") as HTMLCanvasElement;
-      var capture = new tt.SceneCapture(320, 240);
+      var capture = new tt.SceneCapture2(320, 240);
       var drawer = new tt.SceneDrawer(display);
       var yuv = new Uint8Array(320 * 240 * 3 / 2);
       var wh = 320 * 240;
@@ -35,9 +35,10 @@ $(function() {
           yuv.subarray(0, wh), 320,
           yuv.subarray(wh, wh + (wh >> 2)), 160,
           yuv.subarray(wh + (wh >> 2), wh + (wh >> 1)), 160);
-        requestAnimationFrame(draw);
+//        requestAnimationFrame(draw);
       };
-      draw();
+//      draw();
+      setInterval(draw, 100);
     });
   });
   /*
